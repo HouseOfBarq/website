@@ -1,0 +1,7 @@
+.cSignUpBanner {
+    background: url(/src/images/Advertising/SignUpBanner.webp) no-repeat center;
+    background-size: contain;
+    width: 100%;
+    height: 0;
+    padding-top: 5.5%; /* (img-height / img-width * container-width) */
+}

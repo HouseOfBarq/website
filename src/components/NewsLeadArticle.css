@@ -1,0 +1,113 @@
+/* start Main Article */
+.cMainNewsArticle {
+    color: whitesmoke;
+    outline: 2px solid orange;
+    display: grid;
+    grid-template-rows: 1fr 3fr 4fr 1fr;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(/src/images/Game/NewsArticleBackground/Diablo4.webp) no-repeat center;
+    background-size: cover;
+    transition: all .2s ease-in-out;
+  }
+  
+  .cMainNewsArticle:hover {
+    transform: scale(1.05);
+  }
+  
+  .cMainNewsRowA {
+    display: grid;
+    grid-template-columns: 1fr 3fr 6fr;
+    align-items: center;
+  }
+  
+  .iMainNewsAuthor {
+    background: url(/src/images/HoBLogoWhite72.png) no-repeat center;
+    background-size: 50% auto;
+    height: 100%;
+  }
+  
+  .tMainNewsAuthor {
+    font-size: 1vw;
+  }
+  
+  .tMainNewsDate {
+    text-align: right;
+    font-size: 1vw;
+  }
+  
+  .tMainNewsTitle {
+    display: flex;
+    align-items: center;
+    font-size: calc(16px + 1vw);
+    color: orange;
+  }
+  
+  .tMainNewsTitleDescription {
+    display: flex;
+    align-items: center;
+    font-size: calc(10px + .5vw);;
+  }
+  
+  .cMainNewsRowD {
+    display: grid;
+    grid-template-columns: 1fr 4fr 5fr;
+    align-items: center;
+  }
+  
+  .iMainNewsGameLogo {
+    background: url(/src/images/Game/Logo/D4.webp) no-repeat center;
+    background-size: 50% auto;
+    height: 100%
+  }
+  
+  .tMainNewsGameName {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+  }
+  
+  .tMainNewsType {
+    font-size: 1.5vw;
+    color: orange ;
+    text-align: right;
+  }
+  /* end Main Article */
+
+  @media screen and (max-width: 998px) {
+
+    .cMainNewsArticle {
+        order: 3;
+        grid-area: article;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 400px;
+      }
+    
+      .tMainNewsAuthor {
+        font-size: 3vw;
+      }
+    
+      .tMainNewsDate {
+        font-size: 3vw;
+      }
+    
+      .tMainNewsTitle {
+        font-size: 4.5vw;
+      }
+    
+      .tMainNewsTitleDescription {
+        font-size: 3.2vw;
+      }
+    
+      .tMainNewsGameName {
+        font-size: 3vw;
+      }
+      .tMainNewsType {
+        font-size: 4vw;
+      }
+
+  }
+  /* ***Mobile end*** */

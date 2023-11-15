@@ -1,0 +1,103 @@
+.cLatestNewsArticle1 {
+    color: whitesmoke;
+    outline: 1px solid #06F0FC;
+    display: grid;
+    grid-template-rows: 1fr 3fr 4fr 1fr;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(/src/images/Game/NewsArticleBackground/Diablo4.webp) no-repeat center;
+    background-size: cover;
+    padding: 2.5%;
+    transition: all .2s ease-in-out;
+  }
+  
+  .cLatestNewsArticle1:hover {
+    transform: scale(1.05);
+  }
+  .cNewsRowA {
+    display: grid;
+    grid-template-columns: 1fr 3fr 6fr;
+    align-items: center;
+  }
+  
+  .iNewsAuthor {
+    background: url(/src/images/HoBLogoWhite72.png) no-repeat center;
+    background-size: 40% auto;
+    height: 100%;
+  }
+  
+  .tNewsAuthor {
+    font-size: .7vw;
+  }
+  
+  .tNewsDate {
+    text-align: right;
+    font-size: .7vw;
+  }
+  
+  .tNewsTitle {
+    display: flex;
+    align-items: center;
+    font-size: 1vw;
+    color: #B5E8E8;
+  }
+  
+  .tNewsTitleDescription {
+    display: flex;
+    align-items: center;
+    font-size: .8vw;
+  }
+  
+  .cNewsRowD {
+    display: grid;
+    grid-template-columns: 1fr 4fr 5fr;
+    align-items: center;
+  }
+  
+  .iNewsGameLogo {
+    background: url(/src/images/Game/Logo/D4.webp) no-repeat center;
+    background-size: 40% auto;
+    height: 100%
+  }
+  
+  .tNewsGameName {
+    display: flex;
+    align-items: center;
+    font-size: 0.7vw;
+  }
+  
+  .tNewsType {
+    font-size: 1vw;
+    color: #B5E8E8 ;
+    text-align: right;
+  }
+
+  /* end NewsLatestArticle */
+
+  /* ***Mobile start*** */
+  @media screen and (max-width: 998px) {
+
+    .tNewsAuthor {
+        font-size: 2.2vw;
+      }
+      
+      .tNewsDate {
+        font-size: 2.2vw;
+      }
+      
+      .tNewsTitle {
+        font-size: 3vw;
+      }
+      
+      .tNewsTitleDescription {
+        font-size: 2.5vw;
+      }
+    
+      .tNewsGameName {
+        font-size: 2.2vw;
+      }
+    
+      .tNewsType {
+        font-size: 2.4vw;
+      }
+
+  }
+  /* ***Mobile end*** */

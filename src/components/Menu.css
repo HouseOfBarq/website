@@ -1,0 +1,183 @@
+.cMenu {
+    width: 380px;
+    height: 540px;
+    background-color: blanchedalmond;
+    display: grid;
+    grid-template-rows: 1fr 285px;
+    margin: 5%;
+}
+
+.cMenuTop {
+    display: grid;
+    grid-template-columns: 1fr .25fr 2fr;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(/src/images/Menu/ProfileBackground1.webp) no-repeat center;
+    background-size: cover;
+    height: 255px;
+    width: 380px;
+}
+
+
+.cProfile {
+    position: relative;
+}
+
+.cProfileBorder {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.cProfileIcon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cMenuBottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.bMenuButton1 {
+    background: url(/src/images/Menu/MenuIconNews.webp) no-repeat center;
+}
+
+.bMenuButton1:hover {
+    background: url(/src/images/Menu/MenuIconNewsHover.webp) no-repeat center;
+}
+
+.bMenuButton2 {
+    background: url(/src/images/Menu/MenuIconGameList.webp) no-repeat center;
+}
+
+.bMenuButton2:hover {
+    background: url(/src/images/Menu/MenuIconGameListHover.webp) no-repeat center;
+}
+
+.bMenuButton3 {
+    background: url(/src/images/Menu/MenuIconDonate.webp) no-repeat center;
+}
+
+.bMenuButton3:hover {
+    background: url(/src/images/Menu/MenuIconDonateHover.webp) no-repeat center;
+}
+
+.bMenuButton4 {
+    background: url(/src/images/Menu/MenuIconShop.webp) no-repeat center;
+}
+
+.bMenuButton4:hover {
+    background: url(/src/images/Menu/MenuIconShopHover.webp) no-repeat center;
+}
+
+.bMenuButton5 {
+    background: url(/src/images/Menu/MenuIconCalendar.webp) no-repeat center;
+}
+
+.bMenuButton5:hover {
+    background: url(/src/images/Menu/MenuIconCalendarHover.webp) no-repeat center;
+}
+
+.bMenuButton6 {
+    background: url(/src/images/Menu/MenuIconPatch.webp) no-repeat center;
+}
+
+.bMenuButton6:hover {
+    background: url(/src/images/Menu/MenuIconPatchHover.webp) no-repeat center;
+}
+
+.bMenuButton7 {
+    background: url(/src/images/Menu/MenuIconGuides.webp) no-repeat center;
+}
+
+.bMenuButton7:hover {
+    background: url(/src/images/Menu/MenuIconGuidesHover.webp) no-repeat center;
+}
+
+.bMenuButton8 {
+    background: url(/src/images/Menu/MenuIconBeta.webp) no-repeat center;
+}
+
+.bMenuButton8:hover {
+    background: url(/src/images/Menu/MenuIconBetaHover.webp) no-repeat center;
+}
+
+.bMenuButton9 {
+    background: url(/src/images/Menu/MenuIconAbout.webp) no-repeat center;
+}
+
+.bMenuButton9:hover {
+    background: url(/src/images/Menu/MenuIconAboutHover.webp) no-repeat center;
+}
+
+.bMenuButton10 {
+    background: url(/src/images/Menu/MenuIconContact.webp) no-repeat center;
+}
+
+.bMenuButton10:hover {
+    background: url(/src/images/Menu/MenuIconContactHover.webp) no-repeat center;
+}
+
+.bMenuButton11 {
+    background: url(/src/images/Menu/MenuIconPrivacy.webp) no-repeat center;
+}
+
+.bMenuButton11:hover {
+    background: url(/src/images/Menu/MenuIconPrivacyHover.webp) no-repeat center;
+}
+
+.bMenuButton12 {
+    background: url(/src/images/Menu/MenuIconTOS.webp) no-repeat center;
+}
+
+.bMenuButton12:hover {
+    background: url(/src/images/Menu/MenuIconTOSHover.webp) no-repeat center;
+}
+
+.cMenuButton {
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.cMenuButton:hover {
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.cMenuTopRight {
+    display: flex;
+    flex-direction: column;
+}
+
+.tUserName p {
+    font-size: 25px;
+}
+
+.cMenuTopRightBottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 50px;
+    margin-top: auto;
+    padding-bottom: 5%;
+}
+
+.iDashboard {
+    background: url(./../images/Menu/MenuIconDash.png) no-repeat center;
+    background-size: contain;
+}
+
+.iUpdate {
+    background: url(./../images/Menu/MenuIconUpdate.png) no-repeat center;
+    background-size: contain;
+}
+
+.iLogin {
+    background: url(./../images/Menu/MenuIconLogOut.png) no-repeat center;
+    background-size: contain;
+}

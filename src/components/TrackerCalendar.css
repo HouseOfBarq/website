@@ -1,0 +1,142 @@
+/* start Calendar Tracker & Patch Tracker */
+.cCalendarTracker,
+.cPatchTracker {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 1px;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.cCalendarTrackerTitle,
+.cPatchTrackerTitle {
+  background: url(/src/images/Tracker/TrackerTree430x50.png) no-repeat center;
+  background-size: cover;
+  width: 22vw;
+  height: 90%;
+  border: 0;
+}
+
+.cCalendarTrackerTitle h2,
+.cPatchTrackerTitle h2 {
+  display: flex;
+  justify-content: center;
+  font: Roboto;
+  color: orange;
+  font-size: 1.5vw;
+  width: 100%;
+}
+
+.cCalendarItem1,
+.cCalendarItem2,
+.cCalendarItem3,
+.cCalendarItem4,
+.cCalendarItem5,
+.cPatchItem1,
+.cPatchItem2,
+.cPatchItem3,
+.cPatchItem4,
+.cPatchItem5 {
+  display: grid;
+  grid-template-columns: 1.5fr 2.5fr 6fr;
+  color: aliceblue;
+  background: url(/src/images/Tracker/Tracker430x50.png) no-repeat center;
+  background-size: 100% 90%;
+  width: 22.5vw;
+  height: 7.5vh;
+  border: 0;
+  padding: 0;
+  transition: all .2s ease-in-out;
+}
+
+.cCalendarItem1:hover,
+.cCalendarItem2:hover,
+.cCalendarItem3:hover,
+.cCalendarItem4:hover,
+.cCalendarItem5:hover,
+.cPatchItem1:hover,
+.cPatchItem2:hover,
+.cPatchItem3:hover,
+.cPatchItem4:hover,
+.cPatchItem5:hover {
+  transform: scale(1.1);
+}
+
+.iCalendarLogo,
+.iPatchLogo {
+  background: url(/src/images/Game/Logo/Hero-Siege.webp) no-repeat center;
+  background-size: 100% auto;
+  border: 0;
+}
+
+.cCalendarMiddle,
+.cPatchMiddle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5%;
+}
+
+.tCalendarDate,
+.tPatchDate {
+  font-size: calc(14px + .025vw);
+}
+
+.tCalendarGame,
+.tPatchGame {
+  font-size: calc(10px + .05vw);
+}
+
+.tCalendarTitle,
+.tPatchTitle {
+  display: flex;
+  align-items: center;
+  font-size: calc(14px + .25vw);
+}
+
+/* end Calendar Tracker */
+
+/* ***Mobile start*** */
+@media screen and (max-width: 998px) {
+
+  .cCalendarTracker {
+    grid-area: calendar;
+  }
+
+  .cCalendarTrackerTitle,
+  .cPatchTrackerTitle {
+    width: 45vw;
+  }
+
+  .cCalendarTrackerTitle h2,
+  .cPatchTrackerTitle h2 {
+    display: flex;
+    font-size: 4vw;
+    padding-top: 3.5%;
+  }
+
+  .iCalendarLogo,
+  .iPatchLogo {
+    display: none;
+  }
+
+  .cCalendarItem1,
+  .cCalendarItem2,
+  .cCalendarItem3,
+  .cCalendarItem4,
+  .cCalendarItem5,
+  .cPatchItem1,
+  .cPatchItem2,
+  .cPatchItem3,
+  .cPatchItem4,
+  .cPatchItem5 {
+    width: 45vw;
+    grid-template-columns: 1fr 3fr;
+    line-height: .95;
+  }
+
+}
+
+/* ***Mobile end*** */

@@ -1,0 +1,102 @@
+.cLatestGuideArticle1 {
+    color: whitesmoke;
+    outline: 1px solid #06F0FC;
+    display: grid;
+    grid-template-rows: 1fr 3fr 4fr 1fr;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/src/images/Game/NewsArticleBackground/Diablo4.webp) no-repeat center;
+    background-size: cover;
+    padding: 2.5%;
+    transition: all .2s ease-in-out;
+  }
+  
+  .cLatestGuideArticle1:hover {
+    transform: scale(1.05);
+  }
+
+.cGuideRowA {
+    display: grid;
+    grid-template-columns: 1fr 3fr 6fr;
+    align-items: center;
+}
+
+.iGuideAuthor {
+    background: url(/src/images/HoBLogoWhite72.png) no-repeat center;
+    background-size: 40% auto;
+    height: 100%;
+}
+
+.tGuideAuthor {
+    font-size: .7vw;
+}
+
+.tGuideDate {
+    text-align: right;
+    font-size: .7vw;
+}
+
+.tGuideTitle {
+    display: flex;
+    align-items: center;
+    font-size: 1vw;
+    color: #B5E8E8;
+}
+
+.tGuideTitleDescription {
+    display: flex;
+    align-items: center;
+    font-size: .8vw;
+}
+
+.cGuideRowD {
+    display: grid;
+    grid-template-columns: 1fr 4fr 5fr;
+    align-items: center;
+}
+
+.iGuideGameLogo {
+    background: url(/src/images/Game/Logo/D4.webp) no-repeat center;
+    background-size: 40% auto;
+    height: 100%
+}
+
+.tGuideGameName {
+    display: flex;
+    align-items: center;
+    font-size: .7vw;
+}
+
+.tGuideType {
+    font-size: 1vw;
+    color: #B5E8E8;
+    text-align: right;
+}
+
+/* ***Mobile start*** */
+@media screen and (max-width: 998px) {
+
+    .tGuideAuthor {
+        font-size: 2.2vw;
+    }
+
+    .tGuideDate {
+        font-size: 2.2vw;
+    }
+
+    .tGuideTitle {
+        font-size: 3vw;
+    }
+
+    .tGuideTitleDescription {
+        font-size: 2.5vw;
+    }
+
+    .tGuideGameName {
+        font-size: 2.2vw;
+    }
+
+    .tGuideType {
+        font-size: 2.4vw;
+    }
+
+}
+/* ***Mobile end*** */

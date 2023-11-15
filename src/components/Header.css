@@ -1,0 +1,134 @@
+/* Start Header */
+.cHeader {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    min-height: 10vh;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.cLeft {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.bMenu {
+    height: 80px;
+    width: 80px;
+    margin-left: 5%;
+    background: url(/src/images/Header/Menu.png) no-repeat center;
+    border: 0;
+    transition: all .2s ease-in-out;
+}
+
+.bMenu:hover {
+    height: 80px;
+    width: 80px;
+    background: url(/src/images/Header/MenuHover.png);
+    transform: scale(1.1);
+}
+
+.cCenter {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bHouseOfBarqTitle {
+    background: url(/src/images/Header/HouseOfBarqTitle.png) no-repeat center;
+    background-size: contain;
+    height: 10vh;
+    width: 100%;
+    border: 0;
+}
+
+.cRight {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.cRightMenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 4fr;
+    grid-gap: 2%;
+    width: 65%;
+    height: 6vh;
+}
+
+.bBeta {
+    background: url(/src/images/Header/Beta.png) no-repeat center;
+    width: 100%;
+    background-size: contain;
+    ;
+    border: 0;
+}
+
+.bBeta:hover {
+    background: url(/src/images/Header/BetaHover.png) no-repeat center;
+    width: 100%;
+    background-size: contain;
+    border: 0;
+}
+
+.bSearch {
+    background: url(/src/images/Header/Search.png) no-repeat center;
+    width: 100%;
+    background-size: contain;
+    border: 0;
+}
+
+.bSearch:hover {
+    background: url(/src/images/Header/SearchHover.png) no-repeat center;
+    width: 100%;
+    background-size: contain;
+    border: 0;
+}
+
+.bLogIn {
+    background: url(/src/images/Header/Login.png) no-repeat center;
+    width: 100%;
+    background-size: contain;
+    border: 0;
+}
+
+.bLogIn:hover {
+    background: url(/src/images/Header/LoginHover.png) no-repeat center;
+    width: 100%;
+    background-size: contain;
+    border: 0;
+}
+
+.bShop {
+    background: url(/src/images/Header/Shop.png) no-repeat center;
+    width: 90%;
+    background-size: contain;
+    border: 0;
+}
+
+.bShop:hover {
+    background: url(/src/images/Header/ShopHover.png) no-repeat center;
+    width: 90%;
+    background-size: contain;
+    border: 0;
+}
+
+/* End Header */
+
+/* ***Mobile start*** */
+@media screen and (max-width: 998px) {
+
+    .cHeader {
+        grid-template-columns: 1fr 2.5fr .1fr;
+    }
+
+    .cRightMenu {
+        display: none;
+    }
+}
+/* ***Mobile end*** */

@@ -1,0 +1,217 @@
+/* Start Footer */
+.cFooter {
+    display: Grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 10vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.cFooterLeft {
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.cFooterLeftMenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 5%;
+}
+
+.bSpotify {
+    background: url(/src/images/Footer/Spotify.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border: 0;
+}
+
+.bSpotify:hover {
+    background: url(/src/images/Footer/SpotifyHover.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border: 0;
+}
+
+.bEmail {
+    background: url(/src/images/Footer/Email.png);
+    width: 50px;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 0;
+}
+
+.bEmail:hover {
+    background: url(/src/images/Footer/EmailHover.png);
+    width: 50px;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 0;
+}
+
+.bYouTube {
+    background: url(/src/images/Footer/YouTube.png);
+    width: 50px;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 0;
+}
+
+.bYouTube:hover {
+    background: url(/src/images/Footer/YouTubeHover.png);
+    width: 50px;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 0;
+}
+
+.bXTwitter {
+    background: url(/src/images/Footer/XTwitter.png);
+    width: 50px;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 0;
+}
+
+.bXTwitter:hover {
+    background: url(/src/images/Footer/XTwitterHover.png);
+    width: 50px;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 0;
+}
+
+.bDiscord {
+    background: url(/src/images/Footer/Discord.png);
+    width: 50px;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 0;
+}
+
+.bDiscord:hover {
+    background: url(/src/images/Footer/DiscordHover.png);
+    width: 50px;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 0;
+}
+
+.cFooterRight {
+    display: flex;
+    align-items: center;
+}
+
+.cFooterRightMenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 3fr;
+    grid-column-gap: 5%;
+    height: auto;
+    width: 100%;
+}
+
+.bAbout {
+    background: url(/src/images/Footer/About.png) no-repeat center;
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    border: 0;
+}
+
+.bAbout:hover {
+    background: url(/src/images/Footer/AboutHover.png) no-repeat center;
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    border: 0;
+}
+
+.bContact {
+    background: url(/src/images/Footer/Contact.png) no-repeat center;
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    border: 0;
+}
+
+.bContact:hover {
+    background: url(/src/images/Footer/ContactHover.png) no-repeat center;
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    border: 0;
+}
+
+.bPrivacy {
+    background: url(/src/images/Footer/Privacy.png) no-repeat center;
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    border: 0;
+}
+
+.bPrivacy:hover {
+    background: url(/src/images/Footer/PrivacyHover.png) no-repeat center;
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    border: 0;
+}
+
+.bToS {
+    background: url(/src/images/Footer/TOS.png) no-repeat center;
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    border: 0;
+}
+
+.bToS:hover {
+    background: url(/src/images/Footer/TOSHover.png) no-repeat center;
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    border: 0;
+}
+
+.tCopyright {
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+/* End Footer */
+
+/* Start Footer Mobile */
+@media screen and (max-width: 998px) {
+
+    .cFooter {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .cFooterRight {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .cFooterRightMenu {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        height: 48px;
+    }
+
+    .cFooterRightMenu p {
+        font-size: 1.4vw;
+    }
+}
+
+/* End Footer Mobile */

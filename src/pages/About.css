@@ -1,0 +1,30 @@
+body {
+    color: aliceblue;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.cAboutTopBanner {
+    background: url(/src/images/Bar/barAboutUs.png) no-repeat center;
+    background-size: contain;
+    width: 100%;
+    height: 0;
+    padding-top: 10.4166666666%; /* (img-height / img-width * container-width) */
+}
+
+.cAboutBody {
+    display: grid;
+    grid-template-columns: .5fr 1.2fr .5fr;
+}
+
+p {
+    font-family: roboto;
+    font-size: 1.1rem;
+}
+
+h2 {
+    color: aqua;
+    font-size: 2em;
+    font-weight: 900;
+}
